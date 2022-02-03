@@ -1,0 +1,10 @@
+$('.open').click(function(){
+    $(this).next('.submenu').toggle(300);
+    $(this).children('.arrow').toggleClass('rotate');
+});
+$('.close').click(function(){
+    $('.mobile-container').hide();
+});
+$('.burger').click(function(){
+    $('.mobile-container').show();
+});
