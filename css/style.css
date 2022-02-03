@@ -288,7 +288,25 @@ display: none;
     .submenu > div {
         padding: 0 22px;
     }
-   
+   .menu{
+    margin-bottom: 30px;
+
+   }
+   .info-soc{
+       display: block !important;
+   }
+   .social{
+       
+
+    justify-content: start;
+   }
+   .soc:first-child{
+       margin-left: 0;
+   }
+   .soc{
+    width: 18px;
+    height: 18px;
+   }
 }
 
 .rotate{
@@ -326,5 +344,8 @@ display: none;
         .info-text > img {
             margin-right: 6px;
             width: 12px;
+        }
+        .mobile-content {
+            padding: 12px 12px;
         }
 }
