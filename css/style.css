@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -349,3 +349,350 @@ display: none;
             padding: 12px 12px;
         }
 }
+.main{
+    background: url(../img/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.main > h2{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 120.02%;
+/* or 48px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #1A1818;
+padding-top: 42px;
+padding-bottom: 21px;
+}
+.title-text > p{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 128.52%;
+/* or 31px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #2F2B2B;
+}
+.title-text > p:nth-child(2){
+    font-weight: 600;
+}
+.direct{
+
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 5px;
+  max-width: 1270px;
+  margin: auto;
+  margin-top: 51px;
+
+}
+.direct-inner{
+    padding: 25px 22px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 157.5%;
+    /* or 44px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #171717;
+
+}
+.direct-inner > p >span{
+    font-weight: bold;
+}
+.rate-box{
+    background: rgba(229, 229, 229, 0.2);
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(20px);
+border-radius: 5px;
+max-width: 654px;
+padding: 15px 26px;
+}
+.rate-box > h4{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 113.3%;
+/* or 27px */
+
+letter-spacing: 0.005em;
+
+color: #0D0D0D;
+}
+
+.rates-container{
+    max-width: 1270px;
+    margin: auto;
+    margin-top: 42px;
+
+}
+.rate-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #919191;
+    justify-content: space-between;
+}
+.direction{
+    display:flex;
+    align-items: center;
+}
+.rate-inner{
+    margin-top: 17px;
+}
+.icon{
+    margin-right: 9px;
+    width: 23px;
+    height: 23px;
+}
+.icon > img{
+    width: 100%;
+    height: 100%;
+}
+.direction > span{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 296.8%;
+/* or 59px */
+
+letter-spacing: 0.005em;
+
+color: #171717;
+}
+.arr{
+    display: flex;
+    flex-direction:column;
+    margin: 0 10px;
+
+}
+.amount{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150.8%;
+border-left: 2px dashed #5F5F5F;
+letter-spacing: 0.005em;
+
+color: #171717;
+padding: 0 15px;
+width: 120px;
+
+}
+.tariff-item{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-top: 27px;
+
+}
+.tariff-item > p{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 110%;
+letter-spacing: 0.005em;
+color: #171717;
+
+}
+.tariff-icon{
+    margin-right: 31px;
+}
+.rates-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.btn{
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 110.8%;
+text-align: center;
+letter-spacing: 0.12em;
+
+color: #1A1818;
+
+background: linear-gradient(90.75deg, #BC8E3F 3.41%,#ffffff80  110.09%);
+border: 1px solid #ffffff80;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(20px);
+border-radius: 30px;
+padding: 15px 21px;
+display: flex;
+align-items: center; 
+/* #E5BD43  */
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    padding: 55px 0;
+}
+.btn > img{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+@media(max-width:1300px){
+    .direct,.rates-container{
+        margin-left: 15px;
+    margin-right: 15px;
+    }
+    .rates-container{
+        align-items: unset;
+    }
+}
+
+
+  @media (max-width:1100px){
+
+    .direction > span,.tariff-item > p{
+        font-size: 14px;
+
+    }
+    .tariff-item{
+        margin-top: 10px;
+
+    }
+    .direct-inner,.title-text > p{
+        font-size: 20px;
+    }
+    .main > h2{
+        font-size: 35px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 10px 8px;
+
+    }
+    .btn > img{
+        width: 20px;
+    }
+    .amount{
+        font-size: 16px;
+    }
+    .rate-box > h4{
+        font-size: 14px;
+    }
+ 
+      .direction > span{
+        font-size: 14px;
+        letter-spacing: 0.005em;
+        white-space: nowrap;
+      }
+      .tariff-icon {
+        margin-right: 10px;
+    }
+    .tariff-item > p{
+        line-height: 192.8%;
+
+    }
+    .amount{
+        padding: 0 3px;
+
+    }
+    .rate-box{
+        padding: 10px 10px;
+
+    }
+    .amount {
+        text-align: right;
+
+    }
+  }
+  @media (max-width:800px){
+      .arr > img{
+        width: 15px;
+
+      }
+      .icon {
+        margin-right: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .tariff-icon > img{
+        width: 20px;
+    }
+    .amount {
+        font-size: 14px;
+        text-align: right;
+        width: 90px;
+
+    }
+    .rate-box{
+        max-width: 395px;
+
+    }
+  }
+  @media (max-width:767px){
+      .rates-container{
+          flex-direction: column;
+      }
+      .rate-box{
+          margin-bottom: 37px;
+          max-width: unset;
+      }
+      .rate-box:nth-child(2){
+          max-width: 400px;
+      }
+  }
+  @media (max-width:450px){
+      .icon{
+          display: none;
+      }
+      .direction > span {
+        font-size: 12px;
+    }
+    .amount {
+        font-size: 12px;
+        text-align: right;
+        width: 80px;
+    }
+    .main > h2 {
+        font-size: 25px;
+    }
+    .direct-inner, .title-text > p {
+        font-size: 17px;
+    }
+    .btn-div{
+        padding: 20px 0;
+
+    }
+  }
+  @media (max-width: 360px){
+    .arr > img {
+        width: 12px;
+    }
+    .arr{
+        margin: 0 5px;
+
+    }
+    .amount{
+        width: 52px;
+
+    }
+  }
