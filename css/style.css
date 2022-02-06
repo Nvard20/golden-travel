@@ -132,6 +132,8 @@ color: #E4E4E4;
     position: absolute;
     background: #00234d;
     top: 20px;
+    z-index: 8;
+
 display: none;
   }
 .country:hover .submenu{
